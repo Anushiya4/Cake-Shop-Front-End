@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cake Shop - Home</title>
+    <link rel="stylesheet" href="styles/cakeShop.css">
+    <link rel="stylesheet" href="styles/cakeList.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img class="imageTag" src="img/cakes-shop-vector-template-logo-2R49607.jpg" alt="CakeShop">
+            </div>
+            <ul id="nav-links" class="nav-links">
+                <li><a href="homePage.html">Home</a></li>
+                <li><a href="cakeList.html">Cakes</a></li>
+                <li><a href="cart.html"><i style="font-size:24px" class="fa fa-shopping-cart all-icon"></i> <span id="cart-count" class="counts">0</span></a></li>
+                <li><a href="wishlist.html"><i style="font-size:24px" class="fa fa-heart all-icon"></i> <span id="wishlist-count" class="counts">0</span> </a></li>
+                <li><a href="profile.html">Profile</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="cart">
+            <div id="cart-items"></div>
+            <p>Total Price: Rs.<span id="total-price">0.00</span></p>
+            <button type="submit">Complete Purchase</button>
+        </div>
+    </main>
+    <footer>
+        <div class="social-media">
+            <a href="https://facebook.com">Facebook</a>
+            <a href="https://twitter.com">Twitter</a>
+            <a href="https://instagram.com">Instagram</a>
+        </div>
+        <div class="contact-info">
+            <p>Email: info@cakeshop.com</p>
+            <p>Phone: +913456789534</p>
+        </div>
+    </footer>
+    <script src="scripts/cart.js"></script>
+    <script src="scripts/common.js"></script>
+</body>
+</html>

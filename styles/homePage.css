@@ -1,0 +1,47 @@
+.categories {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    justify-content: space-around;
+
+    padding: 1rem;
+
+}
+
+.card {
+
+    border: 1px solid #ccc;
+
+    padding: 1rem;
+
+    margin: 1rem;
+
+    width: 200px;
+
+    text-align: center;
+
+}
+
+.card img {
+
+    width: 100%;
+
+    height: auto;
+
+}
+
+.card p {
+
+    font-size: 0.9rem;
+
+}
+
+.card a {
+
+    color: #007bff;
+
+    text-decoration: none;
+
+}
